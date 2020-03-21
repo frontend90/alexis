@@ -1,0 +1,32 @@
+.about 
+  padding: 150px 0
+  & .about-wrap 
+    display: flex 
+    & .img 
+      & img 
+        border: 10px solid rgba(#000000,.2)
+    & .content 
+      background: #ffffff
+      margin-top: 75px 
+      margin-left: -75px 
+      width: 650px 
+      height: 550px 
+      box-shadow: 0 0 20px rgba(#000000,.05)
+      position: relative
+      & .title 
+        margin-top: 95px 
+        margin-left: 80px
+        position: absolute
+        & h5 
+          +bask_bold
+          font-size: 50px 
+          color: #313131
+      & .desc 
+        margin-top: 185px 
+        margin-left: 80px 
+        position: absolute
+        width: 485px 
+        & p 
+          line-height: 1.8
+          margin-bottom: 20px 
+
