@@ -571,4 +571,305 @@ body {
   color: #313131;
   font-weight: 500;
 }
+
+.team {
+  padding-top: 150px;
+  padding-bottom: 550px;
+  position: relative;
+  background: #f7f7f7;
+}
+
+.team .number-page {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.team .title {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.team .title h5 {
+  color: #313131;
+  font-size: 50px;
+  font-family: 'LibreBaskerville-Bold';
+}
+
+.team .title p {
+  margin-top: 35px;
+  font-size: 18px;
+}
+
+.team .team-wrap {
+  padding-top: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.team .team-wrap .card {
+  width: 263px;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.team .team-wrap .card .img img {
+  border: 5px solid #ffffff;
+  width: 100%;
+}
+
+.team .team-wrap .card .name {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.team .team-wrap .card .name h6 {
+  font-size: 18px;
+  font-family: 'Poppins_Medium';
+  font-weight: 500;
+}
+
+.team .team-wrap .card .name p {
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.team .team-wrap .card .about-block {
+  position: absolute;
+  left: 0;
+  margin-top: 40px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  padding: 65px 100px;
+  -webkit-transition: .5s linear;
+  -o-transition: .5s linear;
+  transition: .5s linear;
+  cursor: default;
+}
+
+.team .team-wrap .card .about-block .about-block-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.team .team-wrap .card .about-block .about-block-wrap .desc h6 {
+  color: #272727;
+  font-size: 20px;
+  font-family: 'Poppins_Medium';
+  font-weight: 500;
+}
+
+.team .team-wrap .card .about-block .about-block-wrap .desc p {
+  margin-top: 30px;
+  line-height: 1.8;
+  width: 635px;
+}
+
+.team .team-wrap .card .about-block .about-block-wrap .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 55px;
+  margin-left: 110px;
+}
+
+.team .team-wrap .card .about-block .about-block-wrap .social .share {
+  margin-top: 60px;
+  margin-right: 35px;
+}
+
+.team .team-wrap .card .about-block .about-block-wrap .social .share .fas {
+  font-family: 'fa-solid-900';
+  color: #fc5f45;
+  font-size: 40px;
+}
+
+.team .team-wrap .card .about-block .about-block-wrap .social .links {
+  margin-top: 25px;
+  border-left: 2px solid #efefef;
+  padding-left: 25px;
+}
+
+.team .team-wrap .card .about-block .about-block-wrap .social .links a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #616161;
+  margin-top: 15px;
+  -webkit-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.team .team-wrap .card .about-block .about-block-wrap .social .links a:hover {
+  color: #fc5f45;
+}
+
+.team .team-wrap .card .about-block .about-block-wrap .social .links a .fab {
+  font-family: 'fa-brands-400';
+  background: #616161;
+  color: #ffffff;
+  font-size: 10px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.team .team-wrap .card .about-teichmann {
+  -webkit-transform: translateX(-2000px);
+      -ms-transform: translateX(-2000px);
+          transform: translateX(-2000px);
+}
+
+.team .team-wrap .card .about-teichmann::before, .team .team-wrap .card .about-teichmann::after {
+  content: '';
+  position: absolute;
+  left: 970px;
+  top: 0;
+  -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
+  border: 30px solid transparent;
+  border-bottom: 30px solid #ffffff;
+}
+
+.team .team-wrap .card .about-schroder {
+  -webkit-transform: translateX(-2000px);
+      -ms-transform: translateX(-2000px);
+          transform: translateX(-2000px);
+}
+
+.team .team-wrap .card .about-schroder::before, .team .team-wrap .card .about-schroder::after {
+  content: '';
+  position: absolute;
+  left: 690px;
+  top: 0;
+  -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
+  border: 30px solid transparent;
+  border-bottom: 30px solid #ffffff;
+}
+
+.team .team-wrap .card .about-kramer {
+  -webkit-transform: translateX(-2000px);
+      -ms-transform: translateX(-2000px);
+          transform: translateX(-2000px);
+}
+
+.team .team-wrap .card .about-kramer::before, .team .team-wrap .card .about-kramer::after {
+  content: '';
+  position: absolute;
+  left: 390px;
+  top: 0;
+  -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
+  border: 30px solid transparent;
+  border-bottom: 30px solid #ffffff;
+}
+
+.team .team-wrap .card .about-schmitt {
+  -webkit-transform: translateX(-2000px);
+      -ms-transform: translateX(-2000px);
+          transform: translateX(-2000px);
+}
+
+.team .team-wrap .card .about-schmitt::before, .team .team-wrap .card .about-schmitt::after {
+  content: '';
+  position: absolute;
+  left: 100px;
+  top: 0;
+  -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
+  border: 30px solid transparent;
+  border-bottom: 30px solid #ffffff;
+}
+
+.team .team-wrap .founder {
+  border-bottom: 3px solid #fc5f45;
+}
+
+.team .team-wrap .founder:hover .about-schmitt {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.team .team-wrap .founder .name h6 {
+  color: #fc5f45;
+}
+
+.team .team-wrap .developer {
+  border-bottom: 3px solid #38c695;
+}
+
+.team .team-wrap .developer:hover .about-kramer {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.team .team-wrap .developer .name h6 {
+  color: #38c695;
+}
+
+.team .team-wrap .designer {
+  border-bottom: 3px solid #b27cf5;
+}
+
+.team .team-wrap .designer:hover .about-schroder {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.team .team-wrap .designer .name h6 {
+  color: #b27cf5;
+}
+
+.team .team-wrap .consultant {
+  border-bottom: 3px solid #feb960;
+}
+
+.team .team-wrap .consultant:hover .about-teichmann {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.team .team-wrap .consultant .name h6 {
+  color: #feb960;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,169 @@
+.team 
+  padding-top: 150px
+  padding-bottom: 550px 
+  position: relative
+  background: #f7f7f7
+  & .number-page 
+    left: 50%
+    transform: translateX(-50%)
+  & .title 
+    text-align: center
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    & h5 
+      color: #313131
+      font-size: 50px
+      +bask_bold  
+    & p 
+      margin-top: 35px 
+      font-size: 18px 
+  & .team-wrap 
+    padding-top: 180px
+    display: flex 
+    justify-content: space-between
+    position: relative
+    & .card 
+      width: 263px  
+      box-shadow: 0 0 20px rgba(#000000,.05)
+      background: #ffffff
+      cursor: pointer
+      & .img 
+        & img 
+          border: 5px solid #ffffff
+          width: 100%
+      & .name 
+        padding: 20px 0 
+        text-align: center
+        & h6 
+          font-size: 18px 
+          +pop_med 
+          font-weight: 500
+        & p 
+          margin-top: 10px 
+          font-size: 13px 
+      & .about-block 
+        position: absolute
+        left: 0
+        margin-top: 40px 
+        background: #ffffff
+        box-shadow: 0 0 20px rgba(#000000,.05)
+        width: 100%
+        padding: 65px 100px 
+        transition: .5s linear 
+        cursor: default 
+        & .about-block-wrap 
+          display: flex 
+          justify-content: space-between
+          & .desc 
+            & h6 
+              color: #272727
+              font-size: 20px 
+              +pop_med 
+              font-weight: 500
+            & p 
+              margin-top: 30px 
+              line-height: 1.8
+              width: 635px 
+          & .social 
+            display: flex 
+            justify-content: space-between
+            margin-top: 55px 
+            margin-left: 110px 
+            & .share 
+              margin-top: 60px 
+              margin-right: 35px  
+              & .fas 
+                +solid 
+                color: #fc5f45
+                font-size: 40px 
+            & .links 
+              margin-top: 25px 
+              border-left: 2px solid #efefef
+              padding-left: 25px 
+              & a 
+                display: flex 
+                color: #616161
+                margin-top: 15px 
+                transition: 0.3s linear 
+                &:hover
+                  color: #fc5f45
+                & .fab 
+                  +brand 
+                  background: #616161
+                  color: #ffffff
+                  font-size: 10px 
+                  display: inline-flex
+                  align-items: center
+                  justify-content: center  
+                  width: 15px 
+                  height: 15px 
+                  margin-right: 5px 
+      & .about-teichmann
+        transform: translateX(-2000px)
+        &::before, &::after
+          content: ''
+          position: absolute
+          left: 970px 
+          top: 0
+          transform: translateY(-100%) 
+          border: 30px solid transparent 
+          border-bottom: 30px solid #ffffff
+      & .about-schroder
+        transform: translateX(-2000px)
+        &::before, &::after
+          content: ''
+          position: absolute
+          left: 690px 
+          top: 0
+          transform: translateY(-100%) 
+          border: 30px solid transparent 
+          border-bottom: 30px solid #ffffff
+      & .about-kramer
+        transform: translateX(-2000px)
+        &::before, &::after
+          content: ''
+          position: absolute
+          left: 390px 
+          top: 0
+          transform: translateY(-100%) 
+          border: 30px solid transparent 
+          border-bottom: 30px solid #ffffff
+      & .about-schmitt
+        transform: translateX(-2000px)
+        &::before, &::after
+          content: ''
+          position: absolute
+          left: 100px 
+          top: 0
+          transform: translateY(-100%) 
+          border: 30px solid transparent 
+          border-bottom: 30px solid #ffffff
+    & .founder 
+      border-bottom: 3px solid #fc5f45
+      &:hover .about-schmitt
+        transform: translateX(0)
+      & .name 
+        & h6 
+          color: #fc5f45
+    & .developer
+      border-bottom: 3px solid #38c695
+      &:hover .about-kramer
+        transform: translateX(0)
+      & .name 
+        & h6 
+          color: #38c695
+    & .designer 
+      border-bottom: 3px solid #b27cf5
+      &:hover .about-schroder
+        transform: translateX(0)
+      & .name 
+        & h6 
+          color: #b27cf5
+    & .consultant
+      border-bottom: 3px solid #feb960
+      &:hover .about-teichmann
+        transform: translateX(0)
+      & .name 
+        & h6 
+          color: #feb960
