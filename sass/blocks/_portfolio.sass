@@ -1,0 +1,99 @@
+.portfolio 
+  padding-top: 140px
+  padding-bottom: 120px  
+  position: relative
+  & .number-page 
+    left: 50%
+    transform: translateX(-50%)
+  & .title 
+    text-align: center
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    & h5 
+      +bask_bold 
+      font-size: 50px 
+      color: #313131
+    & p 
+      margin-top: 35px 
+      font-size: 18px 
+  & .portfolio-wrap 
+    padding-top: 180px 
+    & .block 
+      display: flex 
+      justify-content: space-between
+      margin-bottom: 20px 
+      & .card 
+        width: 360px 
+        position: relative
+        border: 5px solid transparent 
+        overflow: hidden
+        &:hover
+          border: 5px solid #ffffff
+          box-shadow: 0 0 20px rgba(#000000,.05)
+        &:hover .overlay .icon
+          transform: translate(-50%,0)
+        &:hover .overlay .desc 
+          transform: translate(-50%,0)
+        &::before
+          content: ''
+          position: absolute
+          top: 0
+          left: 0
+          width: 100%
+          height: 100%
+          background: rgba(2,2,2,.25)
+        & .img 
+          & img 
+            width: 100%
+        & .overlay 
+          & .icon 
+            position: absolute
+            top: 80px 
+            left: 50%
+            transform: translate(-50%,-150px)
+            border: 2px solid #ffffff
+            border-radius: 50%
+            width: 60px 
+            height: 60px 
+            display: flex 
+            justify-content: center
+            align-items: center
+            transition: 0.3s linear 
+            cursor: pointer
+            & span 
+              background: rgba(#ffffff,.8)
+              width: 2px 
+              height: 35px 
+              &::before
+                content: ''
+                position: absolute
+                background: rgba(#ffffff,.8)
+                width: 2px 
+                height: 35px 
+                transform: rotate(90deg)
+          & .desc 
+            position: absolute
+            bottom: 0
+            left: 50%
+            transform: translate(-50%,100px)
+            background: #ffffff
+            width: 100%
+            text-align: center
+            transition: 0.3s linear 
+            &::before
+              content: ''
+              position: absolute
+              top: 0
+              left: 0
+              width: 100%
+              height: 3px 
+              background: linear-gradient(to right, #fc5f45, #38c695, #b27cf5, #feb960)
+            & h6 
+              padding: 25px 0 
+              +pop_med 
+              font-size: 18px 
+              letter-spacing: .9px 
+              color: #313131
+              font-weight: 500
+
