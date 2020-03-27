@@ -1,0 +1,73 @@
+.stats 
+  position: relative
+  & .img 
+    & img 
+      width: 100%
+  & .stats-wrap 
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    display: flex 
+    justify-content: space-between
+    width: 1140px 
+    & .block 
+      text-align: center
+      width: 150px 
+      & .fas 
+        +solid 
+        font-size: 50px 
+      & .number 
+        margin-top: 25px 
+        color: #fefefe
+        +pop_med 
+        font-size: 20px
+      & .name 
+        margin-top: 25px 
+        opacity: .7
+        color: rgba(254,254,254,.7) 
+      & .point 
+        margin: 35px auto 0  
+        border-radius: 50%
+        width: 16px 
+        height: 16px 
+        display: flex 
+        align-items: center
+        justify-content: center
+        position: relative
+        &::before
+          content: ''
+          position: absolute
+          width: 8px 
+          height: 8px 
+          border-radius: 50%
+    & .graphic 
+      & .fas 
+        color: #fc5f45
+      & .point 
+        border: 1px solid #fc5f45
+        &::before
+          background: #fc5f45
+    & .user
+      & .fas 
+        color: #38c695
+      & .point 
+        border: 1px solid #38c695
+        &::before
+          background: #38c695
+    & .heart
+      & .fas 
+        color: #b27cf5
+      & .point 
+        border: 1px solid #b27cf5
+        &::before
+          background: #b27cf5
+    & .gift
+      & .fas 
+        color: #feb960
+      & .point 
+        border: 1px solid #feb960
+        &::before
+          background: #feb960
+       
+        
+
