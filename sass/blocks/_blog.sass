@@ -1,0 +1,125 @@
+.blog 
+  background: #f7f7f7
+  padding: 150px 0 
+  position: relative
+  & .number-page 
+    left: 50%
+    transform: translateX(-50%)
+  & .title
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    text-align: center
+    & h5 
+      font-size: 50px 
+      +bask_bold 
+      color: #313131
+    & p 
+      margin-top: 25px 
+      font-size: 18px 
+  & .blog-wrap 
+    padding-top: 180px 
+    display: flex 
+    justify-content: space-between
+    & .block 
+      width: 555px 
+      & .img 
+        width: 555px 
+        height: 443px 
+        position: relative
+        & img 
+          box-shadow: 0 0 20px rgba(#000000,.05)
+        & .overlay 
+          position: absolute
+          bottom: 30px
+          left: 50px 
+          display: flex 
+          align-items: center
+          & h6 
+            text-transform: uppercase
+            +pop_med 
+            color: #fc5f45 
+            font-weight: 500
+          & p
+            margin-left: 20px 
+            font-size: 13px 
+            color: rgba(#ffffff,.7)
+      & .social-blog 
+        background: #ffffff
+        padding: 30px 55px 45px 50px 
+        box-shadow: 0 0 20px rgba(#000000,.05)
+        border-bottom: 3px solid #fc5f45 
+        & h6 
+          +pop_med 
+          font-size: 20px 
+          color: #272727
+          font-weight: 500 
+        & p 
+          margin-top: 30px 
+          line-height: 1.8
+          & a 
+            +pop_med 
+            color: #272727
+            transition: 0.3s linear 
+            &:hover
+              color: #fc5f45 
+      & .blog-item
+        background: #ffffff
+        padding: 28px 50px 28px 40px
+        box-shadow: 0 0 20px rgba(#000000,.05)
+        margin-top: 20px 
+        &:first-of-type
+          margin-top: 0 
+        & .blog-item-wrap
+          display: flex 
+          align-items: center
+          & h6 
+            text-transform: uppercase
+            +pop_med 
+            font-weight: 500
+            font-size: 15px 
+          & p 
+            margin-left: 25px 
+            font-size: 13px 
+        & .content 
+          margin-top: 20px 
+          & h6 
+            font-size: 18px 
+            +pop_med 
+            color: #272727
+            font-weight: 500 
+          & p 
+            margin-top: 20px 
+            line-height: 1.8
+            & a 
+              color: #272727
+              +pop_med 
+              transition: 0.3s linear 
+      & .blog-item1
+        & .blog-item-wrap 
+          & h6 
+            color: #38c695
+        & .content 
+          & p 
+            & a 
+              &:hover
+                color: #38c695
+      & .blog-item2
+        & .blog-item-wrap 
+          & h6 
+            color: #b27cf5
+        & .content 
+          & p 
+            & a 
+              &:hover
+                color: #b27cf5
+      & .blog-item3
+        & .blog-item-wrap 
+          & h6 
+            color: #feb960
+        & .content 
+          & p 
+            & a 
+              &:hover
+                color: #feb960
+
