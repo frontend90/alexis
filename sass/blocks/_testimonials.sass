@@ -1,0 +1,83 @@
+.testimonials
+  background: url(../img/testimonials/bg.jpg) no-repeat 
+  width: 100%
+  height: 100%
+  position: relative
+  padding: 150px 0 
+  & .number-page 
+    left: 50%
+    transform: translateX(-50%)
+  & .title 
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    text-align: center
+    color: #ffffff
+    & h5 
+      +bask_bold 
+      font-size: 50px 
+    & p 
+      margin-top: 35px 
+      font-size: 18px 
+  & .testimonials-slider 
+    padding-top: 180px 
+    & .slick-list 
+      overflow: hidden
+      & .slick-track 
+        display: flex 
+        & .testimonials-slider-block 
+          display: flex 
+          justify-content: center
+          align-items: center
+          & .img 
+            & img 
+              border: 10px solid rgba(#000000,.2)
+              box-shadow: 0 0 20px rgba(#000000,.05)
+          & .desc 
+            background: #ffffff url(../img/testimonials/quote.png) no-repeat
+            background-position: 15px 0
+            box-shadow: 0 0 20px rgba(#000000,.05)
+            padding: 40px 75px 35px 50px 
+            & .desc-title 
+              line-height: 1.8
+            & .sign 
+              margin-top: 35px 
+              +sacr
+              font-size: 40px 
+              color: #272727
+            & .author 
+              margin-top: 15px 
+              +pop_med 
+              font-size: 18px 
+              color: #272727
+            & .prof 
+              margin-top: 10px 
+              font-size: 13px 
+              color: #fc5f45
+    & .slick-dots
+      margin-bottom: 0
+      display: flex 
+      justify-content: flex-end
+      & li 
+        list-style: none 
+        margin-left: 5px 
+        height: 18px
+        width: 18px  
+        border: 1px solid #ffffff
+        display: flex 
+        align-items: center
+        justify-content: center
+        border-radius: 50%
+        &:first-of-type
+          margin-left: 0
+        & button  
+          font-size: 0
+          border-radius: 50%
+      & .slick-active
+        border-color: #fc5f45
+        & button 
+          width: 10px 
+          height: 10px 
+          background: #fc5f45
+             
+

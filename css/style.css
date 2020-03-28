@@ -1232,6 +1232,10 @@ body {
   color: #ffffff;
 }
 
+.pricing .pricing-wrap .starter {
+  border-top: 3px solid #38c695;
+}
+
 .pricing .pricing-wrap .starter .card-price-wrap {
   border-color: #38c695;
 }
@@ -1248,6 +1252,10 @@ body {
 
 .pricing .pricing-wrap .starter .btn button:hover {
   background: #38c695;
+}
+
+.pricing .pricing-wrap .ultimate {
+  border-top: 3px solid #fc5f45;
 }
 
 .pricing .pricing-wrap .ultimate .card-price-wrap {
@@ -1268,6 +1276,10 @@ body {
   background: #fc5f45;
 }
 
+.pricing .pricing-wrap .professional {
+  border-top: 3px solid #b27cf5;
+}
+
 .pricing .pricing-wrap .professional .card-price-wrap {
   border-color: #b27cf5;
 }
@@ -1284,5 +1296,151 @@ body {
 
 .pricing .pricing-wrap .professional .btn button:hover {
   background: #b27cf5;
+}
+
+.testimonials {
+  background: url(../img/testimonials/bg.jpg) no-repeat;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 150px 0;
+}
+
+.testimonials .number-page {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.testimonials .title {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+  color: #ffffff;
+}
+
+.testimonials .title h5 {
+  font-family: 'LibreBaskerville-Bold';
+  font-size: 50px;
+}
+
+.testimonials .title p {
+  margin-top: 35px;
+  font-size: 18px;
+}
+
+.testimonials .testimonials-slider {
+  padding-top: 180px;
+}
+
+.testimonials .testimonials-slider .slick-list {
+  overflow: hidden;
+}
+
+.testimonials .testimonials-slider .slick-list .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.testimonials .testimonials-slider .slick-list .slick-track .testimonials-slider-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testimonials .testimonials-slider .slick-list .slick-track .testimonials-slider-block .img img {
+  border: 10px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.testimonials .testimonials-slider .slick-list .slick-track .testimonials-slider-block .desc {
+  background: #ffffff url(../img/testimonials/quote.png) no-repeat;
+  background-position: 15px 0;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  padding: 40px 75px 35px 50px;
+}
+
+.testimonials .testimonials-slider .slick-list .slick-track .testimonials-slider-block .desc .desc-title {
+  line-height: 1.8;
+}
+
+.testimonials .testimonials-slider .slick-list .slick-track .testimonials-slider-block .desc .sign {
+  margin-top: 35px;
+  font-family: 'sacramento';
+  font-size: 40px;
+  color: #272727;
+}
+
+.testimonials .testimonials-slider .slick-list .slick-track .testimonials-slider-block .desc .author {
+  margin-top: 15px;
+  font-family: 'Poppins_Medium';
+  font-size: 18px;
+  color: #272727;
+}
+
+.testimonials .testimonials-slider .slick-list .slick-track .testimonials-slider-block .desc .prof {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #fc5f45;
+}
+
+.testimonials .testimonials-slider .slick-dots {
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.testimonials .testimonials-slider .slick-dots li {
+  list-style: none;
+  margin-left: 5px;
+  height: 18px;
+  width: 18px;
+  border: 1px solid #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+}
+
+.testimonials .testimonials-slider .slick-dots li:first-of-type {
+  margin-left: 0;
+}
+
+.testimonials .testimonials-slider .slick-dots li button {
+  font-size: 0;
+  border-radius: 50%;
+}
+
+.testimonials .testimonials-slider .slick-dots .slick-active {
+  border-color: #fc5f45;
+}
+
+.testimonials .testimonials-slider .slick-dots .slick-active button {
+  width: 10px;
+  height: 10px;
+  background: #fc5f45;
 }
 /*# sourceMappingURL=style.css.map */
